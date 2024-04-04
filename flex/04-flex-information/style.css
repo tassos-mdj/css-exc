@@ -5,12 +5,38 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: block;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+  
 }
+
+.information-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+max-width: 200px;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+
+.text {
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
